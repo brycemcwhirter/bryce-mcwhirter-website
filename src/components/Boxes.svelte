@@ -1,5 +1,8 @@
 <script>
+  import Photo from './boxes/Photo.svelte';
   import boxes from '../data/boxes.json';
+  import Project from './boxes/Project.svelte';
+  import Post from './boxes/Post.svelte';
   const PROJECT = 'project';
   const PHOTO = 'photo';
   const POST = 'post';
@@ -8,11 +11,11 @@
 {#each boxes as box}
   <div class="border min-h-[50vh]">
     {#if box.type == PHOTO}
-      <h1>a photo</h1>
+      <Photo box />
     {:else if box.type == POST}
-      <h1>a post</h1>
+      <Post box />
     {:else if box.type == PROJECT}
-      <h1>a project</h1>
+      <Project box />
     {/if}
   </div>
 {/each}
