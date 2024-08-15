@@ -1,6 +1,6 @@
 <script>
   import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-  import Box from './Box.svelte';
+  import Boxes from './Boxes.svelte';
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
   import {
     faEnvelope,
@@ -9,7 +9,7 @@
   } from '@fortawesome/free-solid-svg-icons';
 </script>
 
-<div class=" min-h-screen grid grid-cols-2">
+<div class="min-h-screen grid grid-cols-1 md:grid-cols-2">
   <div class="flex justify-center items-center">
     <p class="text-center p-5 text-lg">
       My name is Bryce McWhirter and I'm a full stack developer based in the DFW
@@ -26,17 +26,8 @@
   </div>
 </div>
 
-<!--Projects-->
-<!-- <div class="border bg-blue-300 min-h-screen grid grid-cols-2">
-  <Box />
-  <Box />
-  <Box />
-</div> -->
-
-<div class="grid grid-cols-2">
-  <Box title="Title A" />
-  <Box title="Title B" />
-  <Box title="Title C" />
+<div class="grid grid-cols-1 md:grid-cols-2">
+  <Boxes />
 </div>
 
 <div class="min-h-28 flex flex-col justify-center items-center">
