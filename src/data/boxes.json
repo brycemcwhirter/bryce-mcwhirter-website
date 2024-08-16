@@ -1,18 +1,28 @@
 [
   {
     "type": "photo",
-    "title": "Trip to Mexico"
+    "title": "Trip to Mexico",
+    "imageLink": "/images/dana-katharina-D2L05AMs0f8-unsplash.jpg",
+    "alt": "A Picture of a Mountain"
   },
   {
     "type": "project",
-    "title": "Project"
+    "title": "Project",
+    "imageLink": "/images/dana-katharina-D2L05AMs0f8-unsplash.jpg",
+    "alt": "A Picture of a Mountain",
+    "description": "Project Description",
+    "languages": ["c++, java, javascript"]
   },
   {
     "type": "post",
-    "title": "Post"
+    "title": "Blog Post",
+    "headline": "headline",
+    "postLink" : "/here"
   },
     {
     "type": "post",
-    "title": "Post"
+    "title": "Blog Post",
+    "headline": "headline",
+    "postLink" : "/here"
   }
 ]
