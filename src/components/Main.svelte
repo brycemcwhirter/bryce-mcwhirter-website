@@ -2,11 +2,9 @@
   import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
   import Boxes from './Boxes.svelte';
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
-  import {
-    faEnvelope,
-    faMailReply,
-    faVoicemail,
-  } from '@fortawesome/free-solid-svg-icons';
+  import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+  let mainLinksStyle = 'p-10 flex flex-col justify-center items-center';
 </script>
 
 <div class="min-h-screen grid grid-cols-1 md:grid-cols-2">
@@ -20,9 +18,15 @@
     </p>
   </div>
   <div class="grid grid-rows-3">
-    <div class="border">Blog</div>
-    <div class="border">Resumé</div>
-    <div class="border">Playlist</div>
+    <div class="{mainLinksStyle} border">
+      <h1>Blog</h1>
+    </div>
+    <div class="{mainLinksStyle} border">
+      <h1>Resumé</h1>
+    </div>
+    <div class="{mainLinksStyle} border">
+      <h1>Playlists</h1>
+    </div>
   </div>
 </div>
 
