@@ -5,6 +5,7 @@
     faJava,
     faSquareJs,
     faReact,
+    faGithub,
   } from '@fortawesome/free-brands-svg-icons';
 
   const PROJECT = 'project';
@@ -14,6 +15,10 @@
   const postStyle =
     'flex flex-col items-center justify-center h-full hover:bg-secondaryBlue transition-colors duration-300 group';
 
+  const projectHoverStyle =
+    'group-hover:bg-secondaryGreen transition-colors duration-300';
+
+  // Sort Boxes By Year Value
   boxes.sort((a, b) => b.year - a.year);
 </script>
 
@@ -51,43 +56,37 @@
           alt="{box.altTag}"
           class="w-full h-auto border-none p-0 mb-8"
         />
-        <h1
-          class="text-xl md:text-2xl group-hover:bg-secondaryGreen transition-colors duration-300"
-        >
+        <h1 class="text-xl md:text-2xl {projectHoverStyle}">
           {box.title}
         </h1>
-        <p
-          class="text-xs md:text-sm text-justify group-hover:bg-secondaryGreen transition-colors duration-300"
-        >
+        <p class="text-xs md:text-sm text-justify {projectHoverStyle}">
           {box.description}
         </p>
-        <div
-          class="space-x-3 group-hover:bg-secondaryGreen transition-colors duration-300"
-        >
+        <div class="space-x-3 {projectHoverStyle}">
           {#each box.languages as language}
             {#if language === 'java'}
-              <FontAwesomeIcon
-                class="group-hover:bg-secondaryGreen transition-colors duration-300 "
-                icon="{faJava}"
-              />
+              <FontAwesomeIcon class="{projectHoverStyle} " icon="{faJava}" />
             {:else if language === 'javascript'}
               <FontAwesomeIcon
-                class="group-hover:bg-secondaryGreen transition-colors duration-300 "
+                class="{projectHoverStyle} "
                 icon="{faSquareJs}"
               />
             {:else if language === 'react'}
-              <FontAwesomeIcon
-                class="group-hover:bg-secondaryGreen transition-colors duration-300 "
-                icon="{faReact}"
-              />
+              <FontAwesomeIcon class="{projectHoverStyle} " icon="{faReact}" />
             {:else}
-              <span
-                class="group-hover:bg-secondaryGreen transition-colors duration-300"
-                >{language}</span
-              >
+              <span class="{projectHoverStyle}">{language}</span>
             {/if}
           {/each}
         </div>
+        <a
+          href="{box.githubLink}"
+          target="_blank"
+          class="flex justify-center items-center {projectHoverStyle}"
+          ><FontAwesomeIcon
+            icon="{faGithub}"
+            class="fa-3x {projectHoverStyle}"
+          />
+        </a>
       </div>
     {/if}
   </div>
