@@ -10,39 +10,64 @@
 <div class="min-h-screen grid grid-cols-1 md:grid-cols-2">
   <div class="flex justify-center items-center">
     <p class="text-center p-5 text-lg">
-      My name is Bryce McWhirter and I'm a full stack developer based in the DFW
-      area. I'm a graduate from Baylor University with a Bachelor of Science in
-      Computer Science and a minor in Entrepreneurship and Corporate Innovation.
-      I enjoy web development, reading, theology, and annoying my friends about
-      all things music.
+      Hi, I'm Bryce McWhirter, a Full Stack Developer based in the Dallas-Fort
+      Worth area. I hold a Bachelor of Science in Computer Science with a minor
+      in Entrepreneurship and Corporate Innovation from Baylor University. My
+      passions include web development, reading, theology, and sharing my love
+      for music (much to the delight—or occasional annoyance—of my friends).
     </p>
   </div>
-  <div class="grid grid-rows-3">
-    <div class="{mainLinksStyle} border">
-      <h1>Blog</h1>
-    </div>
-    <div class="{mainLinksStyle} border">
-      <h1>Resumé</h1>
-    </div>
-    <div class="{mainLinksStyle} border">
-      <h1>Playlists</h1>
-    </div>
+  <div class="grid grid-rows-2">
+    <a href="/blog" target="_parent">
+      <div
+        class="{mainLinksStyle} hover:bg-secondaryBlue group h-full transition-colors duration-300"
+      >
+        <h1
+          class="text-lg lg:text-xl group-hover:bg-secondaryBlue group-hover:text-primaryBlue transition-colors duration-300"
+        >
+          Blog
+        </h1>
+      </div>
+    </a>
+    <a href="/files/Gene Bryce McWhirter Resume.pdf" target="_blank">
+      <div
+        class="{mainLinksStyle} hover:bg-secondaryGreen group h-full transition-colors duration-300"
+      >
+        <h1
+          class="text-lg lg:text-xl group-hover:bg-secondaryGreen transition-colors duration-300"
+        >
+          Resumé
+        </h1>
+      </div>
+    </a>
+
+    <!-- <div class="{mainLinksStyle} bg-secondaryGreen">
+      <h1 class="text-lg lg:text-xl bg-secondaryGreen text-primaryBlue">
+        Playlists
+      </h1>
+    </div> -->
   </div>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2">
+<!-- <div class="grid grid-cols-3 min-h-[15vh]">
+  <h1 class="{mainLinksStyle} bg-secondaryGreen">Projects</h1>
+  <h1 class="{mainLinksStyle} bg-secondaryBlue text-primaryBlue">Blog Posts</h1>
+  <h1 class="{mainLinksStyle} bg-secondaryOrange text-primaryBlue">Photos</h1>
+</div> -->
+
+<div class="grid grid-cols-1 md:grid-cols-3">
   <Boxes />
 </div>
 
-<div class="min-h-28 flex flex-col justify-center items-center">
-  <h1>Contact</h1>
+<div class="min-h-28 flex flex-col justify-center items-center space-y-3">
+  <h1 class="text-2xl">Contact</h1>
   <div class="flex flex-row space-x-3">
     <a
       href="https://www.linkedin.com/in/bryce-mcwhirter-5b9330146/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <FontAwesomeIcon icon="{faLinkedin}" />
+      <FontAwesomeIcon icon="{faLinkedin}" class="fa-xl sm:fa-2x" />
     </a>
     <a
       href="https://github.com/brycemcwhirter"
@@ -50,14 +75,14 @@
       rel="noopener noreferrer"
     >
       <i class="fa-brands fa-github"></i>
-      <FontAwesomeIcon icon="{faGithub}" />
+      <FontAwesomeIcon icon="{faGithub}" class="fa-xl sm:fa-2x" />
     </a>
     <a
       href="mailto:mcwhirterbryce@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <FontAwesomeIcon icon="{faEnvelope}" />
+      <FontAwesomeIcon icon="{faEnvelope}" class="fa-xl sm:fa-2x" />
     </a>
   </div>
 </div>

@@ -1,4 +1,5 @@
 [
+
   {
     "type": "post",
     "title": "Blog Post",
@@ -14,26 +15,16 @@
     "alt": "TODO", 
 		"description": "My web portfolio showcases a collection of my software development projects, built using modern technologies such as Svelte.js for the front-end, Tailwind CSS for styling, and deployed with continuous integration and deployment tools like GitHub Actions and Netlify.",
 		"githubLink": "https://github.com/brycemcwhirter/my-portfolio",
-    "languages": ["javascript"]
+    "languages": ["javascript", "Svelte"]
 	},
 	{
     "type": "project",
-		"title": "UCan.Do.It",
-    "year": 2022,
-		"imageLink": "/images/location.jpg",
+		"title": "College Projects",
+    "year": 2023,
+		"imageLink": "/images/baylor.jpg",
     "alt": "TODO", 
-		"description": "Created UCAn.Do.It as a class project for my data communications course at Baylor, utilizing TCP and UDP protocols in Java to transmit location records to a server.",
-		"githubLink": "https://github.com/brycemcwhirter/UCAn.Do.it",
-    "languages": ["java"]
-	},
-	{
-    "type": "project",
-		"title": "Food Truck Finder",
-    "year": 2021,
-		"imageLink": "/images/food-truck.jpg",
-    "alt": "TODO", 
-		"description": "Developed a food truck finder application for a class project in 2021, featuring a React.js front-end and a Java Spring Boot backend, allowing users to easily locate and rate local food trucks",
-		"githubLink": "https://github.com/brycemcwhirter/FoodTruckFinder",
-    "languages": ["C++", "react", "javascript"]
+		"description": "This repository contains a collection of programming projects I completed during my college studies. Each project showcases different aspects of software development, ranging from web applications to networking protocols.",
+		"githubLink": "https://github.com/brycemcwhirter/college-projects",
+    "languages": ["java", "python", "javascript", "C", "C++", "etc."]
 	}
 ]
