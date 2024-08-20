@@ -7,16 +7,22 @@
   let mainLinksStyle = 'p-10 flex flex-col justify-center items-center';
 </script>
 
-<div class="gradient-bg">
+<!-- TODO make text element transitions smooth -->
+<!-- TODO make boxes fade in on first appearance -->
+<!-- TODO write your first blog about your portfolio -->
+
+<div class="gradient-bg text-primaryWhite">
   <div class="min-h-screen grid grid-cols-1 md:grid-cols-2">
     <div class="flex justify-center items-center">
-      <p class="text-center p-5 text-lg">
-        Hi, I'm Bryce McWhirter, a Full Stack Developer based in the Dallas-Fort
-        Worth area. I hold a Bachelor of Science in Computer Science with a
-        minor in Entrepreneurship and Corporate Innovation from Baylor
-        University. My passions include web development, reading, theology, and
-        sharing my love for music (much to the delight—or occasional
-        annoyance—of my friends).
+      <p class="text-center p-5 text-lg md:text-2xl">
+        Hi, I'm <strong>Bryce McWhirter</strong>, a
+        <strong>Full Stack Developer</strong> based in <strong>DFW</strong>. I
+        hold a
+        <strong>Bachelor of Science in Computer Science</strong>
+        with a minor in Entrepreneurship and Corporate Innovation from
+        <strong>Baylor University</strong>.
+        <!-- I love Web Development, Theology,
+        and talking about Music. -->
       </p>
     </div>
     <div class="grid grid-rows-2">
@@ -25,7 +31,7 @@
           class="{mainLinksStyle} hover:bg-secondaryBlue group h-full transition-colors duration-300"
         >
           <h1
-            class="text-lg lg:text-xl group-hover:bg-secondaryBlue group-hover:text-primaryBlue transition-colors duration-300"
+            class="text-lg lg:text-4xl font-bold group-hover:bg-secondaryBlue group-hover:text-primaryBlue transition-colors duration-300"
           >
             Blog
           </h1>
@@ -36,7 +42,7 @@
           class="{mainLinksStyle} hover:bg-secondaryGreen group h-full transition-colors duration-300"
         >
           <h1
-            class="text-lg lg:text-xl group-hover:bg-secondaryGreen transition-colors duration-300"
+            class="text-lg lg:text-4xl font-bold group-hover:bg-secondaryGreen transition-colors duration-300"
           >
             Resumé
           </h1>
@@ -56,7 +62,7 @@
   </div>
 
   <div class="min-h-28 flex flex-col justify-center items-center space-y-3">
-    <h1 class="text-2xl">Contact</h1>
+    <h1 class="text-2xl font-extrabold">Contact</h1>
     <div class="flex flex-row space-x-3">
       <a
         href="https://www.linkedin.com/in/bryce-mcwhirter-5b9330146/"

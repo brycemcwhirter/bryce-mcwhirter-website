@@ -2,9 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-* {
-    @apply text-primaryWhite;
-}
+
 
 /* Custom Gradient Background */
 .gradient-bg {

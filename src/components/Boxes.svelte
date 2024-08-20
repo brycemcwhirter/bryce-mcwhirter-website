@@ -51,7 +51,7 @@
       <a href="{box.postLink}" target="_blank">
         <div class="{postStyle}">
           <h1
-            class="text-2xl transition-colors duration-300 group-hover:bg-secondaryBlue group-hover:text-primaryBlue"
+            class="font-bold text-2xl transition-colors duration-300 group-hover:bg-secondaryBlue group-hover:text-primaryBlue"
           >
             {box.title}
           </h1>
@@ -74,7 +74,7 @@
             alt="{box.altTag}"
             class="w-full h-auto border-none p-0 mb-8"
           />
-          <h1 class="text-lg md:text-xl {projectHoverStyle}">
+          <h1 class="font-bold text-lg md:text-xl {projectHoverStyle}">
             {box.title}
           </h1>
           <p class="text-xs md:text-sm text-justify {projectHoverStyle}">
@@ -103,7 +103,8 @@
                   icon="{faPython}"
                 />
               {:else}
-                <span class="{projectHoverStyle}">{language}</span>
+                <span class="{projectHoverStyle} font-semibold">{language}</span
+                >
               {/if}
             {/each}
           </div>
