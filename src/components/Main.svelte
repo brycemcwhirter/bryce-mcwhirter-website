@@ -51,12 +51,6 @@
     </div>
   </div>
 
-  <!-- <div class="grid grid-cols-3 min-h-[15vh]">
-  <h1 class="{mainLinksStyle} bg-secondaryGreen">Projects</h1>
-  <h1 class="{mainLinksStyle} bg-secondaryBlue text-primaryBlue">Blog Posts</h1>
-  <h1 class="{mainLinksStyle} bg-secondaryOrange text-primaryBlue">Photos</h1>
-</div> -->
-
   <div class="grid grid-cols-1 md:grid-cols-3">
     <Boxes />
   </div>

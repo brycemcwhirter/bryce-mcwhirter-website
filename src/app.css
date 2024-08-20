@@ -8,9 +8,9 @@
 
 /* Custom Gradient Background */
 .gradient-bg {
-    background: linear-gradient(270deg, #013D5A, #263fa1, #2ba9ac);
+    background: linear-gradient(270deg, #013D5A, #263fa1, #1f8c8e);
     background-size: 600% 600%;
-    animation: gradientAnimation 8s ease infinite;
+    animation: gradientAnimation 15s ease infinite;
 }
 
 @keyframes gradientAnimation {
