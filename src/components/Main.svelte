@@ -31,7 +31,7 @@
           class="{mainLinksStyle} hover:bg-secondaryBlue group h-full transition-colors duration-300"
         >
           <h1
-            class="text-lg lg:text-4xl font-bold group-hover:bg-secondaryBlue group-hover:text-primaryBlue transition-colors duration-300"
+            class="text-lg lg:text-4xl font-bold group-hover:text-primaryBlue transition-colors duration-300"
           >
             Blog
           </h1>
@@ -42,7 +42,7 @@
           class="{mainLinksStyle} hover:bg-secondaryGreen group h-full transition-colors duration-300"
         >
           <h1
-            class="text-lg lg:text-4xl font-bold group-hover:bg-secondaryGreen transition-colors duration-300"
+            class="text-lg lg:text-4xl font-bold transition-colors duration-300"
           >
             Resumé
           </h1>

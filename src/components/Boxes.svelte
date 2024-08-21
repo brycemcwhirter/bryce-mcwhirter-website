@@ -16,7 +16,7 @@
     'p-10 flex flex-col justify-center items-center h-full space-y-10 group hover:bg-secondaryOrange transition-colors duration-300 ';
 
   const postStyle =
-    'flex flex-col items-center justify-center h-full hover:bg-secondaryBlue transition-colors duration-300 group';
+    'flex flex-col items-center justify-center h-full hover:bg-secondaryBlue hover:text-primaryBlue transition-colors duration-300 group';
 
   const projectStyle =
     'space-y-3 p-10 hover:bg-secondaryGreen w-full h-full transition-colors duration-300 group';
@@ -52,10 +52,10 @@
     {:else if box.type == POST}
       <a href="{box.postLink}" target="_blank">
         <div class="{postStyle}">
-          <h1 class="font-bold text-2xl group-hover:text-primaryBlue">
+          <h1 class="font-bold text-2xl">
             {box.title}
           </h1>
-          <h4 class="text-lg group-hover:text-primaryBlue">
+          <h4 class="text-lg">
             {box.headline}
           </h4>
         </div>
