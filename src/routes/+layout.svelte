@@ -2,4 +2,6 @@
   import '../app.css';
 </script>
 
-<slot></slot>
+<div class="gradient-bg text-primaryWhite min-h-screen">
+  <slot></slot>
+</div>
