@@ -9,6 +9,8 @@
 
 <!-- TODO make text element transitions smooth -->
 <!-- TODO make boxes fade in on first appearance -->
+<!-- TODO make boxes fade in on scroll -->
+<!-- TODO make a temporal link for first blog post -->
 <!-- TODO write your first blog about your portfolio -->
 
 <div class="min-h-screen grid grid-cols-1 md:grid-cols-2">
