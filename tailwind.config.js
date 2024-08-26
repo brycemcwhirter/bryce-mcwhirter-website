@@ -1,8 +1,9 @@
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: ['./src/**/*.{html,js,svelte,ts,svx}'],
 
   theme: {
     extend: {
+     
 
     },
     colors:{
@@ -14,5 +15,7 @@ export default {
     }
   },
 
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
