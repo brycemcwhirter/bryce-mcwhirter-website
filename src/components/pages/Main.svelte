@@ -1,8 +1,11 @@
 <script>
   import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-  import Boxes from './Boxes.svelte';
+  import Boxes from '../layout/Boxes.svelte';
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
   import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+  import boxes from '../../data/boxes.json';
+
 
   let mainLinksStyle = 'p-10 flex flex-col justify-center items-center';
 </script>
@@ -59,7 +62,7 @@
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3">
-  <Boxes />
+  <Boxes boxLocation="../../data/boxes.json"/>
 </div>
 
 <div class="min-h-28 flex flex-col justify-center items-center space-y-3">

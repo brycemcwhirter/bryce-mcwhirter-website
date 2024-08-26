@@ -1,6 +1,8 @@
 <script>
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
-  import boxes from '../data/boxes.json';
+  import boxes from "../../data/boxes.json";
+
+
   import {
     faJava,
     faSquareJs,
