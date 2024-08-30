@@ -1,18 +1,15 @@
 import adapter from '@sveltejs/adapter-static';
-import { mdsvex } from 'mdsvex';
 // import preprocess from 'svelte-preprocess';
 
 export default {
-  extensions: ['.svelte', '.svx'], // Enable .svx files
+  extensions: ['.svelte'], // Enable .svx files
 
   kit: {
     adapter: adapter(),
+            paths: {
+            base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
+        }
   },
 
-  preprocess: [
-    // preprocess(),
-    mdsvex({
-      extension: '.svx', // Set the extension for mdsvex files
-    }),
-  ],
+
 };

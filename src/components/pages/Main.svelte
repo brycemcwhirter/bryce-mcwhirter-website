@@ -6,7 +6,6 @@
 
   import boxes from '../../data/boxes.json';
 
-
   let mainLinksStyle = 'p-10 flex flex-col justify-center items-center';
 </script>
 
@@ -30,7 +29,7 @@
     </p>
   </div>
   <div class="grid grid-rows-2">
-    <a href="/blog" target="_parent">
+    <a href="https://blog.brycemcwhirter.com" target="_parent">
       <div
         class="{mainLinksStyle} hover:bg-secondaryBlue group h-full transition-colors duration-300"
       >
@@ -62,7 +61,7 @@
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3">
-  <Boxes boxLocation="../../data/boxes.json"/>
+  <Boxes boxLocation="../../data/boxes.json" />
 </div>
 
 <div class="min-h-28 flex flex-col justify-center items-center space-y-3">
