@@ -24,6 +24,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/svelte-fontawesome": "^0.2.2",
+    "@sveltejs/adapter-netlify": "^4.3.3",
     "@sveltejs/adapter-static": "^3.0.4",
     "@tailwindcss/typography": "^0.5.14",
     "mdsvex": "^0.12.3"
