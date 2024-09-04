@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [sveltekit()],
   build: {
     rollupOptions: {
-      external: ['@fortawesome/free-brands-svg-icons']
+      external: ['@fontawesome/free-brands-svg-icons']
     }
   }
 });
