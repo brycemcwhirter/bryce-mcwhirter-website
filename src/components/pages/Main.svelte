@@ -4,8 +4,6 @@
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
   import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-  import boxes from '../../data/boxes.json';
-
 
   let mainLinksStyle = 'p-10 flex flex-col justify-center items-center';
 </script>
@@ -13,8 +11,7 @@
 <!-- TODO make text element transitions smooth -->
 <!-- TODO make boxes fade in on first appearance -->
 <!-- TODO make boxes fade in on scroll -->
-<!-- TODO make a temporal link for first blog post -->
-<!-- TODO write your first blog about your portfolio -->
+
 
 <div class="min-h-screen grid grid-cols-1 md:grid-cols-2">
   <div class="flex justify-center items-center">
@@ -30,7 +27,7 @@
     </p>
   </div>
   <div class="grid grid-rows-2">
-    <a href="/blog" target="_parent">
+    <a href="https://blog.brycemcwhirter.com" target="_parent">
       <div
         class="{mainLinksStyle} hover:bg-secondaryBlue group h-full transition-colors duration-300"
       >
@@ -62,7 +59,7 @@
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3">
-  <Boxes boxLocation="../../data/boxes.json"/>
+  <Boxes boxLocation="../../data/boxes.json" />
 </div>
 
 <div class="min-h-28 flex flex-col justify-center items-center space-y-3">
