@@ -22,6 +22,8 @@
       <strong>Bachelor of Science in Computer Science</strong>
       with a minor in Entrepreneurship and Corporate Innovation from
       <strong>Baylor University</strong>.
+      My interest include Web Development, Theology,
+      & Music.
       <!-- I love Web Development, Theology,
         and talking about Music. -->
     </p>
