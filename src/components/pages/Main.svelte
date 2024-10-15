@@ -29,7 +29,7 @@
     </p>
   </div>
   <div class="grid grid-rows-2">
-    <a href="https://blog.brycemcwhirter.com" target="_parent">
+    <a href="https://techblog.brycemcwhirter.com" target="_parent">
       <div
         class="{mainLinksStyle} hover:bg-secondaryBlue group h-full transition-colors duration-300"
       >
