@@ -1,4 +1,4 @@
-[
+let boxes = [
   {
     "type": "project",
 		"title": "blog.brycemcwhirter.com",
@@ -6,16 +6,9 @@
 		"imageLink": "/images/write.jpg",
     "alt": "TODO", 
 		"description": "My Blog where I write about a plethora of topics. This blog was built utilizing Docusaurus, a modern static site generator, and is hosted on GitHub Pages.",
-		"githubLink": "https://github.com/brycemcwhirter/my-blog",
+		"githubLink": "https://darling-gumdrop-72492c.netlify.app",
     "languages": ["react", "javascript"]
 	},
-  {
-    "type": "post",
-    "title": "26 Things",
-    "year":2024.15,
-    "headline": "9/10/24",
-    "postLink" : "https://blog.brycemcwhirter.com/26-things"
-  },
   {
     "type": "project",
 		"title": "brycemcwhirter.com",
@@ -37,3 +30,4 @@
     "languages": ["java", "python", "javascript", "C", "C++"]
 	}
 ]
+export default boxes;

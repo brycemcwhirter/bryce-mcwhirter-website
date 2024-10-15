@@ -1,6 +1,6 @@
 <script>
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
-  import boxes from "../../data/boxes.json";
+  import boxes from "../../data/boxes.js";
 
 
   import {
@@ -36,7 +36,7 @@
 {#each sortedBoxes as box}
   <div class="w-full min-h-[50vh]">
     <!-- Style for a Photo Box -->
-    {#if box.type == PHOTO}
+    {#if box.type === PHOTO}
       <a href="{box.imageLink}" target="_blank">
         <div class="{photoStyle}">
           <img
@@ -51,7 +51,7 @@
       </a>
 
       <!-- Style for a post -->
-    {:else if box.type == POST}
+    {:else if box.type === POST}
       <a href="{box.postLink}" target="_blank">
         <div class="{postStyle}">
           <h1 class="font-bold text-2xl">
@@ -64,7 +64,7 @@
       </a>
 
       <!-- Style for a Project -->
-    {:else if box.type == PROJECT}
+    {:else if box.type === PROJECT}
       <a href="{box.githubLink}" target="_blank">
         <div class="{projectStyle}">
           <img
